@@ -1,0 +1,67 @@
+body {
+/* 
+ background-image: url("paper.gif");
+ */
+ background-color: #cccccc;
+ font-family: "Lato", sans-serif;
+ background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0.7)), url(img/computerfour.jpg);
+ background-size: cover;
+ background-position: center;
+ height: 100vh;
+
+}
+
+.placeholder{
+	color: #FFFAF0;
+	font-size: 2em;
+	padding: 38px;
+	letter-spacing: 1px;
+	word-spacing: 3px;
+}
+
+
+.nav-wrapper {
+	display: flex;
+	justify-content: space-between;
+	padding: 38px;
+}
+
+
+.nav-wrapper > .left-side > div {
+	margin-right: 20px
+	font-size: 0.9em;
+	text-transform: uppercase;
+}
+
+.nav-link-wrapper {
+	height: 22px;
+	border-bottom: 1px solid trasnparent;
+	transition: border-bottom 0.5s;}
+	
+ /* 
+.btn {
+ display: inline-block;
+	padding: 10px 30px;
+	font-weight: 300;
+	text-decoration: none;
+}
+ */
+
+
+.nav-link-wrapper a {
+	color: #5F9EA0;
+	text-decoration: none;
+	transition: color 0.5s;
+	letter-spacing: 1px;
+	word-spacing: 3px;
+}	
+
+
+.nav-link-wrapper a:hover {
+	border-bottom: 1px solid black;
+}
+
+
+.nav-link-wrapper a:hover {
+	color: white;
+}
